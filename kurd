@@ -80,7 +80,7 @@ os.system("clear")
 print "\x1b[1;31m⚔═══════════════════════════☠\x1b[1;93m═══════════════════════════⚔"
 print  """\x1b[0;31m  \033[1;96m            \x1b[1;93m[¤] \033[0;96mTelegram : \033[1;96m@ariahmed\x1b[1;96m  
 \033[1;93m \x1b[1;96m               \x1b[1;93m[¤] \x1b[0;31mYoutube : \x1b[1;31mariahmed\x1b[1;96m  
-\033[1;93m \x1b[1;96m       \x1b[1;93m[¤] \x1b[1;31m⚠ بەر پرس نیم لە هەر کێشەیەک ⚠\x1b[0;31m"""
+\033[1;93m \x1b[1;96m       \x1b[1;93m[¤] \x1b[1;31m⚠barprs nem la har shty ka ruu bda⚠\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠\x1b[1;31m═══════════════════════════⚔"
  
 CorrectUsername = "ari"
@@ -92,10 +92,10 @@ while (loop == 'true'):
     if (username == CorrectUsername):
         password = raw_input("\033[1;96m[\x1b[1;93m☆\x1b[1;96m] \x1b[1;31mPassworde Toolaka \x1b[1;93m>\x1b[1;96m>\x1b[1;93m>\x1b[1;96m>\033[1;35;40m ")
         if (password == CorrectPassword):
-            print "ئەک بتخۆم تەواوە  ✅" + username
+            print "tawaw bzhy ✅" + username
             loop = 'false'
         else:
-            print "جرت پاسۆردەکە هەڵەیە 😅"
+            print "jrt pass hayala 😅"
             os.system('xdg-open https://t.me/ariahmed')
     else:
         print "Usarnameaka Halaya"
