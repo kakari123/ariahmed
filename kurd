@@ -83,8 +83,8 @@ print  """\x1b[0;31m  \033[1;96m            \x1b[1;93m[¤] \033[0;96mTelegram : 
 \033[1;93m \x1b[1;96m       \x1b[1;93m[¤] \x1b[1;31m⚠ barprsyar nem la hech keshayak ⚠\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠\x1b[1;31m═══════════════════════════⚔"
  
-CorrectUsername = "Ver"
-CorrectPassword = "Tex"
+CorrectUsername = "ari"
+CorrectPassword = "ariahmed"
  
 loop = 'true'
 while (loop == 'true'):
@@ -96,10 +96,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Passwordaka Halaya"
-            os.system('xdg-open https://t.me/ShadowKU')
+            os.system('xdg-open https://t.me/ariahmed')
     else:
         print "Usarnameaka Halaya"
-        os.system('xdg-open https://t.me/ShadowKU')
+        os.system('xdg-open https://t.me/ariahmed')
  
 def login():
     os.system('clear')
